@@ -28,7 +28,7 @@ Get the project fired up and start using it as a user would. Try to go through t
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repository). **Please don't merge your own pull request**
+- [ ] Submit a Pull-Request to merge `<firstName-lastName> Branch into master (student's Repository). **Please don't merge your own pull request**
 - [ ] Add your team lead as a reviewer on the pull-request
 - [ ] Your team lead will count the project as complete by merging the branch back into master.
 - [ ] Do your magic!
@@ -37,7 +37,7 @@ Follow these steps for completing your project.
 
 Your challenge for this module: write tests for both the `App.js` component and the `Episodesjs` component. Take note of where the state is being managed, where the async call is, and where different data peices are being rendered. Understanding all of this will be important so you know how to test each component.
 
-**Moving the async call**
+`**Moving the async call**
 
 The async call being inside the component makes it hard to test the asynchronous nature of the component. Let's move the async function into an `/api` directory so we can easily mock that function and make the async tests easier.
 
