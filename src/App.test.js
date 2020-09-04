@@ -1,5 +1,5 @@
 import React from "react";
-import { render, waitFor } from "@testing-library/react";
+import { render, waitFor, getByText } from "@testing-library/react";
 import { fetchShow as mockFetchShow } from "./api/fetchShow";
 import App from "./App";
 
